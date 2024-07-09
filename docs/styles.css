@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+background-image {
+    
+    background-image: url('https://uk.images.search.yahoo.com/images/view;_ylt=AwrEs2aEi4ZmdK0GdSRNBQx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzJlN2NlMjZhNmY4OGVhNjYxZGVmZjYyMjkyMmM4ZjJkBGdwb3MDNARpdANiaW5n?back=https%3A%2F%2Fuk.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dsports%26type%3DE210GB1451G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D4&w=5177&h=3622&imgurl=cdn.ttgtmedia.com%2Frms%2Feditorial%2Fsports-290px.jpg&rurl=https%3A%2F%2Fwww.shareyouressays.com%2Fessays%2Fsports-sans-sportsmanship-essay%2F88047&size=1404.2KB&p=sports&oid=2e7ce26a6f88ea661deff622922c8f2d&fr2=piv-web&fr=mcafee&tt=Sports+sans+Sportsmanship+-+Essay&b=0&ni=21&no=4&ts=&tab=organic&sigr=_nU4BYABwwAO&sigb=nbJour47KFeQ&sigi=2QjuJVtmUUcO&sigt=eGBl2cuiE8nl&.crumb=ULdCkntO/qp&fr=mcafee&fr2=piv-web&type=E210GB1451G0');
+  
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000897;
+    padding: 10px 20px;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav a:hover {
+    background-color: #000897;
+    border-radius: 4px;
+}
+
+.header {
+    background: url('https://uk.images.search.yahoo.com/images/view;_ylt=AwrEs2aEi4ZmdK0GdSRNBQx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzJlN2NlMjZhNmY4OGVhNjYxZGVmZjYyMjkyMmM4ZjJkBGdwb3MDNARpdANiaW5n?back=https%3A%2F%2Fuk.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dsports%26type%3DE210GB1451G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D4&w=5177&h=3622&imgurl=cdn.ttgtmedia.com%2Frms%2Feditorial%2Fsports-290px.jpg&rurl=https%3A%2F%2Fwww.shareyouressays.com%2Fessays%2Fsports-sans-sportsmanship-essay%2F88047&size=1404.2KB&p=sports&oid=2e7ce26a6f88ea661deff622922c8f2d&fr2=piv-web&fr=mcafee&tt=Sports+sans+Sportsmanship+-+Essay&b=0&ni=21&no=4&ts=&tab=organic&sigr=_nU4BYABwwAO&sigb=nbJour47KFeQ&sigi=2QjuJVtmUUcO&sigt=eGBl2cuiE8nl&.crumb=ULdCkntO/qp&fr=mcafee&fr2=piv-web&type=E210GB1451G0') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.sport {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+
+.footer {
+    background-color: #000897;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+}
